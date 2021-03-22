@@ -1,11 +1,11 @@
 import os
 
-var = os.listdir('.\\sa')
+var = os.listdir('.\\dosyalar')
 ascii_string = ""
 liste=[]
 
 for x in var:
-	f=open("sa/"+x, "r")
+	f=open("dosyalar/"+x, "r")
 	binary_values = f.read().split()
 	liste.extend(binary_values)
 
